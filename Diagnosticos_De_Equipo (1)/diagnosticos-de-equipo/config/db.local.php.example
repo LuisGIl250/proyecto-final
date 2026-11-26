@@ -1,0 +1,11 @@
+<?php
+// Copia este archivo como config/db.local.php y ajusta tus credenciales.
+// db.local.php tiene prioridad sobre los valores por defecto de db.php.
+define('DB_HOST', 'localhost');
+define('DB_USER', 'diagnosticos');
+define('DB_PASS', 'cambia-esta-contraseña');
+
+// Opcionales:
+// define('SIGNATURE_SECRET', 'una-cadena-larga-y-aleatoria'); // si no la defines, se crea sola en config/signature.key
+// define('APP_TIMEZONE', 'America/Mexico_City');              // zona horaria de las firmas
+// define('UPLOADS_DIR', '/ruta/con/permiso/de/escritura/uploads'); // dónde guardar las fotografías (por defecto: uploads/ del proyecto)
